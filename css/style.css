@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.outerbox
+{   
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+   
+}
+
+.innerbox
+{  
+    width: 350px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    padding: 20px 30px;
+    background-color: #ffffffcc;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px #03364a;
+    z-index: 3;
+
+
+}
+.head h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.head p{
+    font-size: 0.8rem;
+    color: #555;
+}
+.signup-body
+{
+    margin: 30px 0;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label
+{
+    display: block;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #555;
+    border-radius: 2px;
+    font-size: 1 rem;
+    margin-top: 4px;
+}
+.signup-body p input[type = "submit"]
+{
+    background-color: #27434e;
+    border: none;
+    color: white;
+    cursor: pointer;  
+}
+.signup-body p input[type = "submit"]:hover
+{
+    background-color: #03364a;
+}
+
+.signup-footer p 
+{
+    text-align: center;
+}
+.signup-footer p a{
+    color:#03364a ;
+    text-decoration: none;
+}
+.signup-body p button
+{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    background-color:#212529;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signup-body p button a 
+{
+    color: #fff;
+    text-decoration: none;
+}
